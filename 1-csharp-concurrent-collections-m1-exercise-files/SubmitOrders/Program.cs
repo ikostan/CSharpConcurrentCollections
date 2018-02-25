@@ -13,14 +13,15 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 	{
 		static void Main(string[] args)
 		{
-			// Each of these methods shows a different state in the program
-			// as it was edited through module 1 of the course.
+            // Each of these methods shows a different state in the program
+            // as it was edited through module 1 of the course.
 
-			// Uncomment any method and comment out the others to see
-			// how the program worked at that point.
-			
-			// initially, with one thread:
-			RunProgramOneThread();
+            // Uncomment any method and comment out the others to see
+            // how the program worked at that point.
+
+            // initially, with one thread:
+
+            RunProgramOneThread();
 
             // multi-threaded but NOT thread-safe:
             // This method will give unpredictable results and may crash
@@ -30,20 +31,21 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
             // the likelihood of showing errors on my computer.
             // You may need to adjust this time to get similar results on your hardware.
 
-            //RunProgramMultithreaded();
+            RunProgramMultithreaded();
 
             // multi-threaded and thread-safe
             // because it uses a concurrent queue
 
-            //RunProgramConcurrent();
+            RunProgramConcurrent();
 
             // multi-threaded and thread-safe
             // because it uses locks to synchronize threads
 
-            //RunProgramWithLock();
+            RunProgramWithLock();
 
 		}
 
+        //Single thread
 		static void RunProgramOneThread()
 		{
 			var orders = new Queue<string>();
@@ -53,10 +55,11 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 			foreach (string order in orders)
 				Console.WriteLine("ORDER: " + order);
 
+            Console.WriteLine("Please press any...");
             Console.ReadKey();
 		}
 
-        //
+        //Multi-threaded BUT still using a regular Queue
 		static void RunProgramMultithreaded()
 		{
 			var orders = new Queue<string>();
@@ -66,10 +69,13 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 
 			foreach (string order in orders)
 				Console.WriteLine("ORDER: " + order);
+
+            Console.WriteLine("Please press any...");
+            Console.ReadKey();
 		}
 
-        //
-		static void RunProgramConcurrent()
+        //Multi-threaded + using a concurrent Queue
+        static void RunProgramConcurrent()
 		{
 			var orders = new ConcurrentQueue<string>();
 			Task task1 = Task.Run(() => PlaceOrders2(orders, "Mark"));
@@ -78,7 +84,10 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 
 			foreach (string order in orders)
 				Console.WriteLine("ORDER: " + order);
-		}
+
+            Console.WriteLine("Please press any...");
+            Console.ReadKey();
+        }
 
         //
 		static void RunProgramWithLock()
@@ -90,10 +99,13 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 
 			foreach (string order in orders)
 				Console.WriteLine("ORDER: " + order);
-		}
 
-        // Single threaded method
-		static void PlaceOrders(Queue<string> orders, string customerName)
+            Console.WriteLine("Please press any...");
+            Console.ReadKey();
+        }
+
+        // Single threaded method - often produces bugs if used in multi-threaded flow
+        static void PlaceOrders(Queue<string> orders, string customerName)
 		{
             // Add 5 orders
 			for (int i = 0; i < 5; i++)
@@ -104,7 +116,7 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 			}
 		}
 
-        //
+        //This method is using concurrent collection, much better for multi-threading flow
 		static void PlaceOrders2(ConcurrentQueue<string> orders, string customerName)
 		{
 			for (int i = 0; i < 5; i++)
@@ -115,10 +127,10 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 			}
 		}
 
-        //
+        //Object that used for LOCKING purposes
 		static object _lockObj = new object();
 
-        //
+        //Using LOCK in order to get thread-safety
 		static void PlaceOrders3(Queue<string> orders, string customerName)
 		{
 			for (int i = 0; i < 5; i++)
@@ -130,7 +142,11 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 					orders.Enqueue(orderName);
 				}
 			}
-		}
+
+            Console.WriteLine("Please press any...");
+            Console.ReadKey();
+        }
 	}
 
+    //End of class
 }
