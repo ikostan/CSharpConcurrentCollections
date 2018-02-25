@@ -22,22 +22,25 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 			// initially, with one thread:
 			RunProgramOneThread();
 
-			// multi-threaded but NOT thread-safe:
-			// This method will give unpredictable results and may crash
-			// Note that the stability of this function depends to some extent on 
-			// your hardware. I put a Thread.Sleep(1) in the code used in the module
-			// because that seemed to time the threads to maximize contention and so maximuze
-			// the likelihood of showing errors on my computer.
-			// You may need to adjust this time to get similar results on your hardware.
-			RunProgramMultithreaded();
+            // multi-threaded but NOT thread-safe:
+            // This method will give unpredictable results and may crash
+            // Note that the stability of this function depends to some extent on 
+            // your hardware. I put a Thread.Sleep(1) in the code used in the module
+            // because that seemed to time the threads to maximize contention and so maximuze
+            // the likelihood of showing errors on my computer.
+            // You may need to adjust this time to get similar results on your hardware.
 
-			// multi-threaded and thread-safe
-			// because it uses a concurrent queue
-			RunProgramConcurrent();
+            //RunProgramMultithreaded();
 
-			// multi-threaded and thread-safe
-			// because it uses locks to synchronize threads
-			RunProgramWithLock();
+            // multi-threaded and thread-safe
+            // because it uses a concurrent queue
+
+            //RunProgramConcurrent();
+
+            // multi-threaded and thread-safe
+            // because it uses locks to synchronize threads
+
+            //RunProgramWithLock();
 
 		}
 
@@ -49,9 +52,11 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 
 			foreach (string order in orders)
 				Console.WriteLine("ORDER: " + order);
+
+            Console.ReadKey();
 		}
 
-
+        //
 		static void RunProgramMultithreaded()
 		{
 			var orders = new Queue<string>();
@@ -63,6 +68,7 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 				Console.WriteLine("ORDER: " + order);
 		}
 
+        //
 		static void RunProgramConcurrent()
 		{
 			var orders = new ConcurrentQueue<string>();
@@ -74,7 +80,7 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 				Console.WriteLine("ORDER: " + order);
 		}
 
-
+        //
 		static void RunProgramWithLock()
 		{
 			var orders = new Queue<string>();
@@ -86,17 +92,19 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 				Console.WriteLine("ORDER: " + order);
 		}
 
-
+        // Single threaded method
 		static void PlaceOrders(Queue<string> orders, string customerName)
 		{
+            // Add 5 orders
 			for (int i = 0; i < 5; i++)
 			{
 				Thread.Sleep(1);
-				string orderName = string.Format("{0} wants t-shirt {1}", customerName, i + 1);
-				orders.Enqueue(orderName);
+				string orderName = string.Format("{0} wants t-shirt {1}", customerName, i + 1); // Order description
+				orders.Enqueue(orderName); //Add a new order in the queue
 			}
 		}
 
+        //
 		static void PlaceOrders2(ConcurrentQueue<string> orders, string customerName)
 		{
 			for (int i = 0; i < 5; i++)
@@ -107,7 +115,10 @@ namespace Pluralsight.ConcurrentCollections.SubmitOrders
 			}
 		}
 
+        //
 		static object _lockObj = new object();
+
+        //
 		static void PlaceOrders3(Queue<string> orders, string customerName)
 		{
 			for (int i = 0; i < 5; i++)
