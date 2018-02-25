@@ -1,0 +1,18 @@
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\bin\Release\DictionaryPerformance.exe.config
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\bin\Release\DictionaryPerformance.exe
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\bin\Release\DictionaryPerformance.pdb
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\obj\Release\DictionaryPerformance.exe
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\obj\Release\DictionaryPerformance.pdb
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\obj\Release\DictionaryPerformance.csprojResolveAssemblyReference.cache
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\bin\Release\DictionaryPerformance.exe.config
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\obj\Release\DictionaryPerformance.exe
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\obj\Release\DictionaryPerformance.pdb
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\bin\Release\DictionaryPerformance.exe
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\bin\Release\DictionaryPerformance.pdb
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\DictionaryPerformance\DictionaryPerformance\obj\Release\DictionaryPerformance.csprojResolveAssemblyReference.cache
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\DictionaryPerformance\DictionaryPerformance\bin\Release\DictionaryPerformance.exe.config
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\DictionaryPerformance\DictionaryPerformance\obj\Release\DictionaryPerformance.exe
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\DictionaryPerformance\DictionaryPerformance\obj\Release\DictionaryPerformance.pdb
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\DictionaryPerformance\DictionaryPerformance\bin\Release\DictionaryPerformance.exe
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\DictionaryPerformance\DictionaryPerformance\bin\Release\DictionaryPerformance.pdb
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\DictionaryPerformance\DictionaryPerformance\obj\Release\DictionaryPerformance.csprojResolveAssemblyReference.cache

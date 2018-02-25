@@ -1,0 +1,24 @@
+G:\Projects\ConcurrentImmutable\Concurrent\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.exe.config
+G:\Projects\ConcurrentImmutable\Concurrent\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.exe
+G:\Projects\ConcurrentImmutable\Concurrent\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.pdb
+G:\Projects\ConcurrentImmutable\Concurrent\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.csprojResolveAssemblyReference.cache
+G:\Projects\ConcurrentImmutable\Concurrent\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.exe
+G:\Projects\ConcurrentImmutable\Concurrent\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.pdb
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.exe.config
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.exe
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.pdb
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.exe
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.pdb
+G:\Pluralsight\Courses\Concurrent\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.csprojResolveAssemblyReference.cache
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.exe.config
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.exe
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.pdb
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.exe
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.pdb
+G:\Pluralsight\Courses\Concurrent Collections\Code\6-best-practices\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.csprojResolveAssemblyReference.cache
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.exe.config
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.exe
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.pdb
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.exe
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\EnumerateDictionary\EnumerateDictionary\bin\Debug\EnumerateDictionary.pdb
+G:\Pluralsight\Courses\Concurrent Collections\Code\For Upload\6-Best-Practices\EnumerateDictionary\EnumerateDictionary\obj\Debug\EnumerateDictionary.csprojResolveAssemblyReference.cache
